@@ -29,3 +29,6 @@ console.log(`Total Price: €${totalPrice}`);
 console.log(`Tax on Fruits (6%): €${(totalPrice * taxRates[0].rate) / 100}`);
 console.log(`Tax on Wine (21%): €${(totalPrice * taxRates[1].rate) / 100}`);
 console.log(`Total Tax: €${totalTax}`);
+
+
+module.exports = { calculateTotalPrice, calculateTax };
